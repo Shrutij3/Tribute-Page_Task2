@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif&family=Playfair+Display:ital@1&family=Roboto+Mono&family=Special+Elite&family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:weight@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+ html {
+font-family: Noto Serif, serif;
+font-size: 10px;
+font-weight: 150;
+color: black;
+background: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3B4NjUwODQ3LWltYWdlLWpvYjYzMC1hXzIuanBn.jpg);
+}
+body {
+font-size: 1.6rem;
+margin: 0 auto;
+width: 70vw;
+text-align: left;
+}
+@media (max-width: 768px) {
+body {
+width: 100vw;
+}
+}
+@media (min-width: 1200px) {
+body {
+max-width: 700px;
+}
+}
+a {
+color: black;
+text-decoration: none;
+}
+h1 {
+font-family: Noto Sans JP, sans-serif ;
+font-size: 4rem;
+color: black;
+text-align: center;
+
+}
+.subtitle {
+font-family: Noto Sans JP, sans-serif;
+font-size: 2rem;
+color: black; 
+}
+h2 {
+font-family: Noto Sans JP, sans-serif;
+font-size: 2.8rem;
+margin: 50px 0 25px 0;
+text-align: center;
+}
+h3 {
+font-family: Noto Sans JP, sans-serif;
+font-size: 2rem;
+font-weight: 600;
+margin: 40px 0 5px 0;
+color: black;
+}
+
+
+h4{
+    font-size: 1.2rem;
+    font-family: 'Montserrat',sans-serif;
+}
+section {
+text-align: center;
+}
+
+i {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+    
+    text-align: center;
+}
+.container {
+    text-align: center;
+}
+
+#image {
+    display: block;
+    max-width: 170%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: 3px brown;
+    -webkit-box-shadow: 0px 0px 65px -7px rgba(255,165,0,1);
+    -moz-box-shadow: 0px 0px 65px -7px rgba(255,165,0,1);
+    box-shadow: 0px 0px 65px -7px rgba(255,165,0,1);
+
+}
+#img-caption {
+    font-family: Noto Sans JP, sans-serif;
+    margin-top: 20px;
+    text-align: center;
+}    
+.gimg{
+    height: 170px;
+    width: 210px;
+    margin-bottom: 25px;
+    float: left;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: black;
+    border-width: 10px;
+}
+
+
+.ic {
+    color: BLACK;
+    margin: 12px;
+    padding: 3px;
+    
+}
+
+.copyright {
+    font-size: medium;
+    color: black;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+
+
+#footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
